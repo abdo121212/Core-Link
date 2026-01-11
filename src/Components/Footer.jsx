@@ -47,20 +47,21 @@ const Footer = () => {
 
               {/* social handle */}
               <div className="flex items-center gap-3 mt-6">
-                <a href="/">
-                  <FaFacebook className="text-3xl hover:text-primary duration-300" />
-                </a>
-                <a href="/">
-                  <FaInstagram className="text-3xl hover:text-primary duration-300" />
-                </a>
-                <a href="/">
-                  <FaLinkedin className="text-3xl hover:text-primary duration-300" />
-                </a>
+                <FaFacebook className="text-3xl hover:text-primary duration-300" />
+                <FaInstagram className="text-3xl hover:text-primary duration-300" />
+                <FaLinkedin className="text-3xl hover:text-primary duration-300" />
               </div>
             </div>
 
             {/* Footer Links section */}
-            <div className="grid grid-cols-2 sm:grid-cols-3 col-span-2 md:pl-10">
+            <div
+              className="  grid
+  grid-cols-1
+  md:grid-cols-2
+  xl:grid-cols-3
+  col-span-2
+  md:pl-10"
+            >
               <div>
                 <div className="py-8 px-4">
                   <h1 className="text-xl font-bold mb-3 ">Quick Links</h1>
