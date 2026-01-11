@@ -1,3 +1,6 @@
+import { Autoplay } from "swiper/modules";
+import { Swiper, SwiperSlide } from "swiper/react";
+
 import image2 from "../assets/ClientsP/download-removebg-preview (1).png";
 import image4 from "../assets/ClientsP/download-removebg-preview.png";
 import image7 from "../assets/ClientsP/download__10_-removebg-preview.png";
@@ -11,9 +14,6 @@ import image16 from "../assets/ClientsP/download__3_-removebg-preview.png";
 import image18 from "../assets/ClientsP/download__4_-removebg-preview.png";
 import image20 from "../assets/ClientsP/download__5_-removebg-preview.png";
 import image21 from "../assets/ClientsP/download__7_-removebg-preview.png";
-
-import { Autoplay } from "swiper/modules";
-import { SwiperSlide, Swiper } from "swiper/react";
 
 const Clients = () => {
   const images = [
@@ -33,45 +33,38 @@ const Clients = () => {
   ];
 
   return (
-    <section className="dark:text-white dark:bg-black container px-10  duration-300  py-20 ">
-      <h1
-        className="text-3xl sm:text-4xl text-center  pb-20"
-        data-aos="fade-up"
-      >
-        {" "}
+    <section className="dark:text-white dark:bg-black container px-10 py-20">
+      <h1 className="text-3xl sm:text-4xl text-center pb-20" data-aos="fade-up">
         Our Clients
       </h1>
 
       <div data-aos="fade-up" data-aos-delay="400" className="slider-container">
         <Swiper
           slidesPerView={1}
+          spaceBetween={20}
           loop={true}
           modules={[Autoplay]}
           autoplay={{
-            delay: 2000,
+            delay: 0,
             disableOnInteraction: false,
+            pauseOnMouseEnter: false,
           }}
+          speed={2000}
           breakpoints={{
-            640: {
-              slidesPerView: 2,
-            },
-            768: {
-              slidesPerView: 3,
-            },
-            1024: {
-              slidesPerView: 5,
-            },
+            640: { slidesPerView: 2 },
+            768: { slidesPerView: 3 },
+            1024: { slidesPerView: 5 },
           }}
           className="z-10"
+          dir="rtl" // أو "rtl" لو عايز يمشي من اليمين للشمال
         >
           {images.map(({ id, image }) => (
-            <SwiperSlide>
-              <div className="flex items-center justify-self-center">
+            <SwiperSlide key={id}>
+              <div className="flex items-center justify-center">
                 <img
-                  key={id}
                   src={image}
                   alt="logo for our clients"
-                  className="object-cover h-30 w-30 rounded-2xl "
+                  className="object-cover h-30 w-30 rounded-2xl"
                 />
               </div>
             </SwiperSlide>

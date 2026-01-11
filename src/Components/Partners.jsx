@@ -44,27 +44,22 @@ const Partners = () => {
       <div data-aos="fade-up" data-aos-delay="400" className="slider-container">
         <Swiper
           slidesPerView={1}
+          spaceBetween={20}
           loop={true}
           modules={[Autoplay]}
           autoplay={{
-            delay: 2000,
+            delay: 0, 
             disableOnInteraction: false,
+            pauseOnMouseEnter: false,
           }}
+          speed={1000} 
           breakpoints={{
-            300: {
-              slidesPerView: 1,
-            },
-            640: {
-              slidesPerView: 2,
-            },
-            768: {
-              slidesPerView: 3,
-            },
-            1024: {
-              slidesPerView: 5,
-            },
+            640: { slidesPerView: 2 },
+            768: { slidesPerView: 3 },
+            1024: { slidesPerView: 5 },
           }}
           className="z-10"
+          dir="ltr" // أو "rtl" لو عايز يمشي من اليمين للشمال
         >
           {images.map(({ id, image }) => (
             <SwiperSlide>
