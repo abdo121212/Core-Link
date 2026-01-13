@@ -1,13 +1,9 @@
+import { FiTwitter } from "react-icons/fi";
 import { MdOutlineEmail } from "react-icons/md";
-import bg from "../assets/website/globe-internet-icon-line-connection-circuit-board.jpg";
+import NatureVideo from "../assets/Video/11041433-hd_1920_1080_30fps.mp4";
 import { HiOutlineLocationMarker } from "react-icons/hi";
 import { Link } from "react-router-dom";
-import {
-  FaFacebook,
-  FaInstagram,
-  FaLinkedin,
-  FaMobileAlt,
-} from "react-icons/fa";
+import { FaInstagram, FaLinkedin, FaMobileAlt } from "react-icons/fa";
 const Footer = () => {
   const FooterLinks = [
     { id: 1, title: "Home", link: "/" },
@@ -29,20 +25,24 @@ const Footer = () => {
   ];
   return (
     <>
-      <footer
-        style={{ backgroundImage: `url(${bg})` }}
-        className="bg-gray-100 dark:bg-dark duration-300 bg-cover relative "
-      >
-        <div className="absolute top-0 left-0 right-0 bottom-0 bg-black/70"></div>
+      <footer className="bg-gray-100 dark:bg-dark duration-300 bg-cover relative ">
+        <video
+          loop
+          muted
+          autoPlay
+          className="absolute inset-0 w-full h-full object-cover z-0"
+        >
+          <source src={NatureVideo} />
+        </video>
 
-        <div data-aos="fade" className="container mx-auto px-10 text-white ">
+        <div data-aos="fade" className="container mx-auto px-10 ">
           <div className="grid md:grid-cols-3 py-4">
             {/* company Details */}
             <div className="py-8 px-4">
               <h1 className="sm:text-3xl text-xl font-bold sm:text-left text-justify mb-3 flex items-center gap-3">
                 Core Link
               </h1>
-              <p className="text-sm my-2">
+              <p className="text-sm my-2 text-white ">
                 It is not just a technology company, but a success partner
                 building the future with confidence.
               </p>
@@ -52,9 +52,21 @@ const Footer = () => {
 
               {/* social handle */}
               <div className="flex items-center gap-3 mt-6">
-                <FaFacebook className="text-3xl hover:text-primary/40 duration-300" />
-                <FaInstagram className="text-3xl hover:text-primary/40 duration-300" />
-                <FaLinkedin className="text-3xl hover:text-primary/40 duration-300" />
+                <a href="https://x.com/Corelinkarabia" target="_blank">
+                  <FiTwitter className="text-3xl hover:text-primary/40 duration-300" />
+                </a>
+                <a
+                  href="https://www.instagram.com/corelinkarabia/?hl=en"
+                  target="_blank"
+                >
+                  <FaInstagram className="text-3xl hover:text-primary/40 duration-300" />
+                </a>
+                <a
+                  href="https://www.linkedin.com/company/corelinkarabia/"
+                  target="_blank"
+                >
+                  <FaLinkedin className="text-3xl hover:text-primary/40 duration-300" />
+                </a>
               </div>
             </div>
 

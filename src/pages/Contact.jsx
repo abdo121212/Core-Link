@@ -1,11 +1,8 @@
-import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import { Mail, Phone, MapPin } from "lucide-react";
 import "leaflet/dist/leaflet.css";
 import { Helmet } from "react-helmet";
 
 function Contact() {
-  const riyadh = [24.7136, 46.6753];
-
   return (
     <>
       <Helmet>
@@ -56,7 +53,7 @@ function Contact() {
               data-aos="fade-right"
               className="text-gray-700 dark:text-gray-300"
             >
-              123 IT Street, Riyadh, Saudi Arabia
+              Al Arid Dist. Riyadh
             </p>
           </div>
           <div className="flex flex-col items-center text-center gap-4">
@@ -73,13 +70,14 @@ function Contact() {
             >
               Email
             </h3>
-            <p
+            <a
+              href="mailto:info@corelinkarabia.com:"
               data-aos-delay="300"
               data-aos="fade-left"
               className="text-gray-700 dark:text-gray-300"
             >
               info@corelinkarabia.com
-            </p>
+            </a>
           </div>
           <div className="flex flex-col items-center text-center gap-4">
             <Phone
@@ -100,15 +98,17 @@ function Contact() {
               data-aos="fade-left"
               className="text-gray-700 dark:text-gray-300"
             >
-              +966 55 123 4567
+              +966 59 708 0934
             </p>
           </div>
         </section>
 
         {/* Contact Form & Map */}
-        <section className="max-w-7xl mx-auto px-6 py-24 grid lg:grid-cols-2 gap-12">
+        <section className="max-w-5xl mx-auto px-6 py-24 grid items-center-safe gap-12">
           {/* Form */}
           <form
+            action="https://getform.io/f/184edfe2-14eb-4128-8a67-a3467847a450"
+            method="POST"
             data-aos-delay="300"
             data-aos="fade-left"
             className="bg-gray-100 dark:bg-slate-900 p-10 rounded-3xl shadow-lg flex flex-col gap-6"
@@ -138,25 +138,6 @@ function Contact() {
               Send Message
             </button>
           </form>
-
-          {/* Map */}
-          <div
-            data-aos-delay="300"
-            data-aos="fade-right"
-            className="h-96 w-full rounded-3xl overflow-hidden shadow-lg z-10"
-          >
-            <MapContainer
-              center={riyadh} // مركز الخريطة على الرياض
-              zoom={13} // مستوى التكبير
-              scrollWheelZoom={false}
-              style={{ height: "100%", width: "100%" }}
-            >
-              <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-              <Marker position={riyadh}>
-                <Popup>Core Link Arabia HQ - Riyadh</Popup>
-              </Marker>
-            </MapContainer>
-          </div>
         </section>
       </div>
     </>

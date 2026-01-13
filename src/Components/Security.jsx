@@ -1,4 +1,4 @@
-import banner from "../assets/website/surveillance-data-security-technology.jpg";
+import banner from "../assets/website/surveillance-data-security-technology (1).jpg";
 import { Link } from "react-router-dom";
 const Security = () => {
   return (
@@ -9,7 +9,8 @@ const Security = () => {
             src={banner}
             alt="banner"
             data-aos="fade-up"
-            className="rounded-3xl duration-300 hover:blur-sm w-1/2"
+            className="rounded-3xl duration-300"
+            width={400}
           />
 
           {/* text setion  */}
@@ -28,6 +29,12 @@ const Security = () => {
             <div className="flex gap-6">
               <Link
                 to={"/solutions"}
+                onClick={() =>
+                  window.scrollTo({
+                    top: 0,
+                    behavior: "smooth",
+                  })
+                }
                 className=" bg-linear-to-r dark:border-white border-black border-2 py-2 px-6 duration-300 dark:text-white rounded-full  cursor-pointer  cursor-pointer"
                 data-aos="fade-up"
                 data-aos-delay="600"

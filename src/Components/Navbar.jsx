@@ -90,7 +90,6 @@ const Navbar = () => {
           <DarkMode />
         </nav>
 
-        {/* Mobile Menu section */}
 
         <nav className="md:hidden flex items-center gap-4  ">
           <DarkMode />

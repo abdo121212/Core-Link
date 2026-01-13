@@ -5,7 +5,6 @@ const TwoBanner = () => {
     <div className="py-12 sm:py-10  relative">
       <div className="container">
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 place-items-center">
-          {/* text setion  */}
           <div className="space-y-5 lg:pr-20 order-2 sm:order-1 ">
             <h1 className="text-4xl font-semibold text-[#223760] dark:text-white">
               GET READY TO ENJOY WISH CORE LINK ,
@@ -19,7 +18,6 @@ const TwoBanner = () => {
             </p>
           </div>
 
-          {/* image setion  */}
           <div className="order-1 sm:order-2">
             <img
               src={banner}

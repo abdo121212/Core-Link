@@ -7,7 +7,6 @@ const Hero = () => {
       <div className="py-12 sm:py-0 duration-300">
         <div className="container min-h-175 flex relative">
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 relative z-10 place-items-center my-36">
-            {/* hero text */}
 
             <div className="space-y-5 lg:pr-20 order-2 sm:order-1 ">
               <h1
@@ -43,7 +42,6 @@ const Hero = () => {
                 </Link>
               </div>
             </div>
-            {/* hero imge */}
 
             <div data-aos="fade-up" className="order-1 sm:order-2 ">
               <video
@@ -56,7 +54,6 @@ const Hero = () => {
               </video>
             </div>
           </div>
-          {/* background color  */}
         </div>
       </div>
     </>

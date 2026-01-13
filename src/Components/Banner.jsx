@@ -1,4 +1,4 @@
-import banner from "../assets/website/cybersecurity-data-protection-concept.jpg";
+import banner from "../assets/website/future-visions-business-technology-concept (2).jpg";
 import { Link } from "react-router-dom";
 const Banner = () => {
   return (
@@ -8,8 +8,10 @@ const Banner = () => {
           <img
             src={banner}
             alt="banner"
+
             data-aos="fade-up"
-            className="rounded-3xl duration-300 hover:blur-sm w-3/4"
+            className="rounded-3xl duration-300 "
+            width={400}
           />
 
           {/* text setion  */}

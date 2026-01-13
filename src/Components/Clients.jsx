@@ -56,7 +56,7 @@ const Clients = () => {
             1024: { slidesPerView: 5 },
           }}
           className="z-10"
-          dir="rtl" // أو "rtl" لو عايز يمشي من اليمين للشمال
+          dir="rtl" 
         >
           {images.map(({ id, image }) => (
             <SwiperSlide key={id}>

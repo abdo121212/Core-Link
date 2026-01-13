@@ -1,7 +1,6 @@
 import { GrUserExpert } from "react-icons/gr";
 import { GiThink } from "react-icons/gi";
 import { RiCustomerService2Line } from "react-icons/ri";
-import { SlNote } from "react-icons/sl";
 
 const Features = () => {
   const FeaturesData = [
