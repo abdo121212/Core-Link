@@ -1,5 +1,4 @@
 import Hero from "../Components/Hero";
-import Quotes from "../Components/Quotes";
 import Banner from "../Components/Banner";
 import TwoBanner from "../Components/TwoBanner";
 import Features from "../Components/Features";
@@ -20,14 +19,13 @@ const Home = () => {
       </Helmet>
       <main className=" dark:text-white dark:bg-black  duration-300">
         <div className="container px-10 mx-auto">
-        <Hero />
-        {/* <Quotes /> */}
-        <Banner />
-        <TwoBanner />
-        <Security />
-        <Features />
-        <Partners />
-        <Clients />
+          <Hero />
+          <Banner />
+          <TwoBanner />
+          <Security />
+          <Features />
+          <Partners />
+          <Clients />
         </div>
       </main>
     </>
