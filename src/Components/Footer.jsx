@@ -1,6 +1,5 @@
 import { FiTwitter } from "react-icons/fi";
 import { MdOutlineEmail } from "react-icons/md";
-import NatureVideo from "../assets/Video/11041433-hd_1920_1080_30fps.mp4";
 import { HiOutlineLocationMarker } from "react-icons/hi";
 import { Link } from "react-router-dom";
 import { FaInstagram, FaLinkedin, FaMobileAlt } from "react-icons/fa";
@@ -25,16 +24,7 @@ const Footer = () => {
   ];
   return (
     <>
-      <footer className="duration-300 bg-cover relative ">
-        <video
-          loop
-          muted
-          autoPlay
-          className="absolute inset-0 w-full h-full object-cover z-0"
-        >
-          <source src={NatureVideo} />
-        </video>
-
+      <footer className="duration-300 bg-cover relative dark:bg-black bg-white ">
         <div data-aos="fade" className="container mx-auto px-10 text-white">
           <div className="grid md:grid-cols-3 py-4">
             {/* company Details */}

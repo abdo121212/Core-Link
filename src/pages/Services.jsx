@@ -88,8 +88,6 @@ function Services() {
           />
         </section>
 
-   
-
         {/* CTA */}
         <section className="py-24 px-6">
           <div className="max-w-6xl mx-auto rounded-3xl  p-16 text-center">
@@ -136,6 +134,5 @@ function ServiceRow({ icon, title, text }) {
     </div>
   );
 }
-
 
 export default Services;
