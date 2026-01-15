@@ -22,6 +22,8 @@ function App() {
     AOS.refresh();
   }, []);
 
+  
+
   const routes = createBrowserRouter([
     {
       path: "/",

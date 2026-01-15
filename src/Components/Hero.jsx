@@ -6,11 +6,10 @@ const Hero = () => {
     <>
       <div className="py-12 sm:py-0 duration-300">
         <div className="container min-h-175 flex relative">
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 relative z-10 place-items-center my-36">
-
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-1 relative z-10 place-items-center my-36 px-4">
             <div className="space-y-5 lg:pr-20 order-2 sm:order-1 ">
               <h1
-                className="text-4xl font-semibold bg-linear-to-r  from-[#223760] to-[#223760] dark:from-white dark:to-white/85 bg-clip-text  text-transparent"
+                className="text-4xl font-semibold bg-linear-to-r   from-[#223760] to-[#223760] dark:from-white dark:to-white/85 bg-clip-text  text-transparent"
                 data-aos="fade-up"
                 data-aos-delay="300"
               >
