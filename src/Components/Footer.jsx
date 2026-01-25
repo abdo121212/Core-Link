@@ -105,7 +105,7 @@ const Footer = () => {
                 Services
               </h3>
               <ul className="space-y-4">
-                <Link to={"services#maintenance"}>
+                <Link to={"services#dataCenter"}>
                   <li className="hover:font-medium duration-300 hover:ml-3 cursor-pointer">
                     Data Center
                   </li>
