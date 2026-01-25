@@ -81,7 +81,11 @@ function Services() {
           >
             <div className="grid grid-cols-1 md:grid-cols-2 w-full h-full items-stretch">
               {/* Image Section */}
-              <div className="order-first md:order-0 relative h-100 md:h-auto w-full overflow-hidden">
+              <div
+                data-aos-delay="300"
+                data-aos="fade-right"
+                className="order-first md:order-0 relative h-100 md:h-auto w-full overflow-hidden"
+              >
                 <img
                   src={dataCenterImg}
                   alt="Data Center"
@@ -93,7 +97,11 @@ function Services() {
               </div>
 
               {/* Content Section */}
-              <div className="flex flex-col justify-center px-8 lg:px-20 py-12 space-y-4">
+              <div
+                data-aos-delay="300"
+                data-aos="fade-left"
+                className="flex flex-col justify-center px-8 lg:px-20 py-12 space-y-4"
+              >
                 <div className="space-y-4">
                   <div className="w-14 h-14 rounded-full flex items-center justify-center mb-6 bg-[#223760] shadow-lg shadow-[#223760]/20">
                     <BsFillDatabaseFill className="text-white text-2xl" />
@@ -151,7 +159,11 @@ function Services() {
           >
             {/* التعديل: استخدام flex-col-reverse للموبايل فقط لرفع الصورة */}
             <div className="flex flex-col-reverse md:grid md:grid-cols-2 w-full h-full items-stretch">
-              <div className="flex flex-col justify-center px-8 lg:px-20 py-12 space-y-8 bg-gray-300 dark:bg-black">
+              <div
+                data-aos-delay="300"
+                data-aos="fade-right"
+                className="flex flex-col justify-center px-8 lg:px-20 py-12 space-y-8 bg-gray-300 dark:bg-black"
+              >
                 <div className="space-y-4">
                   <div className="bg-[#223760]  w-14 h-14 rounded-full flex items-center justify-center mb-6 shadow-lg shadow-[#223760]/20">
                     <MdSecurity className="text-white text-2xl" />
@@ -195,7 +207,11 @@ function Services() {
                   </Link>
                 </div>
               </div>
-              <div className="relative h-100 md:h-auto w-full overflow-hidden">
+              <div
+                data-aos-delay="300"
+                data-aos="fade-left"
+                className="relative h-100 md:h-auto w-full overflow-hidden"
+              >
                 <img
                   src={physicalSecurityImg}
                   alt="Physical Security"
