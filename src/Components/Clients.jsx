@@ -1,18 +1,18 @@
 import { Autoplay } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 
-import image2 from "../assets/ClientsP/download-removebg-preview (1).png";
-import image4 from "../assets/ClientsP/download-removebg-preview.png";
-import image7 from "../assets/ClientsP/download__10_-removebg-preview.png";
-import image8 from "../assets/ClientsP/download__11_-removebg-preview.png";
-import image9 from "../assets/ClientsP/download__1_-removebg-preview (1).png";
-import image10 from "../assets/ClientsP/download__1_-removebg-preview.png";
-import image11 from "../assets/ClientsP/download__2_-removebg-preview (1).png";
-import image14 from "../assets/ClientsP/download__2_-removebg-preview.png";
-import image16 from "../assets/ClientsP/download__3_-removebg-preview.png";
-import image18 from "../assets/ClientsP/download__4_-removebg-preview.png";
-import image20 from "../assets/ClientsP/download__5_-removebg-preview.png";
-import image21 from "../assets/ClientsP/download__7_-removebg-preview.png";
+import image2 from "../assets/ClientsP/download-removebg-preview (1).WebP";
+import image4 from "../assets/ClientsP/download-removebg-preview.WebP";
+import image7 from "../assets/ClientsP/download__10_-removebg-preview.WebP";
+import image8 from "../assets/ClientsP/download__11_-removebg-preview.WebP";
+import image9 from "../assets/ClientsP/download__1_-removebg-preview (1).WebP";
+import image10 from "../assets/ClientsP/download__1_-removebg-preview.WebP";
+import image11 from "../assets/ClientsP/download__2_-removebg-preview (1).WebP";
+import image14 from "../assets/ClientsP/download__2_-removebg-preview.WebP";
+import image16 from "../assets/ClientsP/download__3_-removebg-preview.WebP";
+import image18 from "../assets/ClientsP/download__4_-removebg-preview.WebP";
+import image20 from "../assets/ClientsP/download__5_-removebg-preview.WebP";
+import image21 from "../assets/ClientsP/download__7_-removebg-preview.WebP";
 
 const Clients = () => {
   const clients = [

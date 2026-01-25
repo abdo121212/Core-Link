@@ -32,7 +32,7 @@ function Contact() {
           <p
             data-aos-delay="300"
             data-aos="fade-right"
-            className=" max-w-2xl mx-auto text-lg text-white text-center"
+            className=" max-w-2xl mx-auto text-lg text-white text-center    "
           >
             We'd love to hear from you! Reach out to us via form, email, phone,
             or visit us.

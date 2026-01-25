@@ -1,15 +1,15 @@
-import image2 from "../assets/Partners/download__10_-removebg-preview.png";
-import image4 from "../assets/Partners/download__12_-removebg-preview.png";
-import image7 from "../assets/Partners/download__16_-removebg-preview.png";
-import image8 from "../assets/Partners/download__17_-removebg-preview.png";
-import image9 from "../assets/Partners/download__19_-removebg-preview.png";
-import image10 from "../assets/Partners/download__20_-removebg-preview.png";
-import image11 from "../assets/Partners/pelco-logo-png_seeklogo-107217-removebg-preview.png";
-import image14 from "../assets/Partners/download__3_-removebg-preview.png";
-import image15 from "../assets/Partners/download__4_-removebg-preview.png";
-import image16 from "../assets/Partners/download__5_-removebg-preview.png";
-import image18 from "../assets/Partners/download__7_-removebg-preview.png";
-import image21 from "../assets/Partners/download__21_-removebg-preview.png";
+import image2 from "../assets/Partners/download__10_-removebg-preview.WebP";
+import image4 from "../assets/Partners/download__12_-removebg-preview.WebP";
+import image7 from "../assets/Partners/download__16_-removebg-preview.WebP";
+import image8 from "../assets/Partners/download__17_-removebg-preview.WebP";
+import image9 from "../assets/Partners/download__19_-removebg-preview.WebP";
+import image10 from "../assets/Partners/download__20_-removebg-preview.WebP";
+import image11 from "../assets/Partners/pelco-logo-png_seeklogo-107217-removebg-preview.WebP";
+import image14 from "../assets/Partners/download__3_-removebg-preview.WebP";
+import image15 from "../assets/Partners/download__4_-removebg-preview.WebP";
+import image16 from "../assets/Partners/download__5_-removebg-preview.WebP";
+import image18 from "../assets/Partners/download__7_-removebg-preview.WebP";
+import image21 from "../assets/Partners/download__21_-removebg-preview.WebP";
 
 import { Autoplay } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
