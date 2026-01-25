@@ -32,7 +32,7 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className=" md:py-0 w-full   mx-auto   z-999   fixed dark:bg-black/90 bg-white rounded-b-2xl  shadow-xl">
+    <nav className=" md:py-0 w-full  select-none  mx-auto   z-999   fixed dark:bg-black/90 bg-white rounded-b-2xl  shadow-xl">
       <div className="flex items-center justify-between  px-5 py-2">
         {/* Logo */}
         <Link to={"/"} className="flex items-center p-5 flex-col ">
@@ -40,11 +40,15 @@ const Navbar = () => {
             data-aos="fade-right"
             className="text-3xl font-semibold dark:text-white text-[#223760]"
           >
-            Core <span className=" text-[#636870] dark:text-white">Link</span>
+            Core{" "}
+            <span className=" text-[#636870] dark:text-white">
+              Li
+              <span className="text-[24px]">N</span>k
+            </span>
           </h3>
           <h6
             data-aos="fade-left"
-            className="text-[#223760] dark:text-white tracking-widest"
+            className="text-[#223760] dark:text-white tracking-[0.5em] text-[12px]"
           >
             ARABIA
           </h6>

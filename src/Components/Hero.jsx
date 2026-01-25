@@ -4,7 +4,7 @@ import bg from "../assets/Video/2792370-hd_1920_1080_30fps.mp4";
 const Hero = () => {
   return (
     <header
-      className="relative h-screen overflow-hidden"
+      className="relative h-screen overflow-hidden bg-black select-none"
       aria-label="Hero section"
     >
       {/* Background Video */}
@@ -13,7 +13,7 @@ const Hero = () => {
         loop
         muted
         playsInline
-        className="absolute inset-0 w-full h-full object-cover pt-22"
+        className="absolute inset-0 w-full h-full object-cover translate-y-52    "
         aria-hidden="true"
       >
         <source src={bg} type="video/mp4" />

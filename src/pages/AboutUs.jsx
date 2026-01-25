@@ -1,7 +1,7 @@
 import { ShieldCheck, Network, Layers, Activity } from "lucide-react";
 
 import { Helmet } from "react-helmet";
-import bgV from "../assets/Video/gradient-technology-background.jpg";
+import bgV from "../assets/Video/IMG_8014.JPG.jpeg";
 function AboutUs() {
   const steps = [
     {

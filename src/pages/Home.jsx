@@ -5,7 +5,6 @@ import Clients from "../Components/Clients";
 import { Helmet } from "react-helmet";
 import { useEffect, useState } from "react";
 import ScrollUp from "../Components/ScrollUp";
-// import SocialLinks from "../Components/SocialLinks";
 
 import {
   Server,
@@ -153,7 +152,7 @@ function ServiceRow({ icon, title, text, LinkId }) {
       {/* Arrow (Visible always) */}
       <span
         className="
-          absolute top-2 right-2
+          absolute top-2 -right-7
           text-[#223760] dark:text-white
           transition-transform duration-300
           group-hover:translate-x-2
@@ -167,7 +166,7 @@ function ServiceRow({ icon, title, text, LinkId }) {
 
       {/* Content */}
       <div>
-        <h3 className="text-2xl font-semibold mb-2">{title}</h3>
+        <h3 className="text-2xl   sm:font-semibold mb-2">{title}</h3>
         <p className="text-gray-700 dark:text-gray-400 leading-relaxed">
           {text}
         </p>
