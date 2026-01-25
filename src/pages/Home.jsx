@@ -67,12 +67,28 @@ const Home = () => {
               title="Data Center Solutions"
               text="Design, implementation, and maintenance of enterprise-grade data centers with high availability."
             />
+
             <ServiceRow
-              LinkId={"maintenance"}
-              icon={<Network />}
-              title="Operations, Maintenance & SLA Services"
-              text="Operational services ensuring long-term system performance, reliability, and compliance."
+              LinkId={"physicalSecurity"}
+              icon={<Eye />}
+              title="Physical Security Solutions"
+              text="Installation and support of CCTV, access control, and audio-visual systems."
             />
+
+            <ServiceRow
+              LinkId={"lowCurrent"}
+              icon={<Cpu />}
+              title="Low Current / Smart Building Systems"
+              text="Intelligent building and low-current systems delivering automation, efficiency, and centralized management."
+            />
+
+            <ServiceRow
+              LinkId={"audioVisual"}
+              icon={<Wrench />}
+              title="Audio Visual and Smart Conference Systems"
+              text="Integrated audio-visual and smart meeting room solutions for effective communication and collaboration."
+            />
+
             <ServiceRow
               LinkId={"cybersecurity"}
               icon={<Shield />}
@@ -80,22 +96,10 @@ const Home = () => {
               text="Security assessment, firewall deployment, monitoring, and incident response services."
             />
             <ServiceRow
-              LinkId={"physicalSecurity"}
-              icon={<Eye />}
-              title="Physical Security Solutions"
-              text="Installation and support of CCTV, access control, and audio-visual systems."
-            />
-            <ServiceRow
-              LinkId={"lowCurrent"}
-              icon={<Cpu />}
-              title="Low Current / Smart Building Systems"
-              text="Intelligent building and low-current systems delivering automation, efficiency, and centralized management."
-            />
-            <ServiceRow
-              LinkId={"audioVisual"}
-              icon={<Wrench />}
-              title="Audio Visual and Smart Conference Systems"
-              text="Integrated audio-visual and smart meeting room solutions for effective communication and collaboration."
+              LinkId={"maintenance"}
+              icon={<Network />}
+              title="Operations, Maintenance & SLA Services"
+              text="Operational services ensuring long-term system performance, reliability, and compliance."
             />
           </section>
           <Partners />
@@ -113,8 +117,7 @@ const Home = () => {
                 Ready to empower your business with Core Link Arabia?
               </h2>
               <p data-aos-delay="500" data-aos="fade-up" className="mb-6">
-                 From
-                system design and integration to ongoing operations and
+                From system design and integration to ongoing operations and
                 SLA-based support, Core Link Arabia is your trusted technology
                 partner.
               </p>
