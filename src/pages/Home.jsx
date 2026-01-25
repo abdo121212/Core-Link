@@ -54,7 +54,7 @@ const Home = () => {
         <AboutUs />
         <div className="container px-14 mx-auto">
           {/* Split Layout Services */}
-          <h1 className="text-4xl text-center">Our Services</h1>
+          <h1 className="text-4xl text-center font-medium">Our Services</h1>
 
           <section
             data-aos-delay="300"
