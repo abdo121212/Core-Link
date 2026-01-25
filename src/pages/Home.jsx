@@ -54,6 +54,8 @@ const Home = () => {
         <AboutUs />
         <div className="container px-14 mx-auto">
           {/* Split Layout Services */}
+          <h1 className="text-4xl text-center">Our Services</h1>
+
           <section
             data-aos-delay="300"
             data-aos="fade-up"
@@ -108,11 +110,13 @@ const Home = () => {
                 data-aos="fade-up"
                 className="text-3xl font-bold mb-4"
               >
-                Let’s Build the Future Together
+                Ready to empower your business with Core Link Arabia?
               </h2>
               <p data-aos-delay="500" data-aos="fade-up" className="mb-6">
-                Partner with Core Link for reliable, scalable, and secure IT
-                solutions.
+                 From
+                system design and integration to ongoing operations and
+                SLA-based support, Core Link Arabia is your trusted technology
+                partner.
               </p>
               <Link
                 to={"/contact"}

@@ -105,11 +105,36 @@ const Footer = () => {
                 Services
               </h3>
               <ul className="space-y-4">
-                <li>Smart Solutions</li>
-                <li>Safety & Control Solutions</li>
-                <li>Cyber Security Solutions</li>
-                <li>ICT Data Center Solutions</li>
-                <li>System & Networking Solutions</li>
+                <Link to={"services#maintenance"}>
+                  <li className="hover:font-medium duration-300 hover:ml-3 cursor-pointer">
+                    Data Center
+                  </li>
+                </Link>
+                <Link to={"services#physicalSecurity"}>
+                  <li className="hover:font-medium duration-300 hover:ml-3 cursor-pointer pt-2">
+                    Physical Security
+                  </li>
+                </Link>
+                <Link to={"services#lowCurrent"}>
+                  <li className="hover:font-medium duration-300 hover:ml-3 cursor-pointer pt-2">
+                    Smart Building
+                  </li>
+                </Link>
+                <Link to={"services#audioVisual"}>
+                  <li className="hover:font-medium duration-300 hover:ml-3 cursor-pointer pt-2">
+                    AV & Conference
+                  </li>
+                </Link>
+                <Link to={"services#cybersecurity"}>
+                  <li className="hover:font-medium duration-300 hover:ml-3 cursor-pointer pt-2">
+                    Cybersecurity
+                  </li>
+                </Link>
+                <Link to={"services#maintenance"}>
+                  <li className="hover:font-medium duration-300 hover:ml-3 cursor-pointer pt-2">
+                    Maintenance & SLA
+                  </li>
+                </Link>
               </ul>
             </section>
 

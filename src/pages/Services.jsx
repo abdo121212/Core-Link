@@ -309,6 +309,8 @@ function Services() {
                     "Building Management Systems (BMS)",
                     "Guest Room & Hospitality Systems",
                     "Energy & Environment Monitoring",
+                    "Lighting & HVAC Control",
+                    "Occupancy & Environment Sensors",
                     "Parking & Access Systems",
                     "Public Address & Intercom Systems",
                     "Central Monitoring Platforms",
