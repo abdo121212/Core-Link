@@ -133,7 +133,7 @@ const Home = () => {
               <h2
                 data-aos-delay="300"
                 data-aos="fade-up"
-                className="text-3xl font-bold mb-4"
+                className="text-3xl font-bold mb-4 text-[#223760]"
               >
                 Ready to empower your business with Core Link Arabia?
               </h2>

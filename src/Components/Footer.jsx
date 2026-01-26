@@ -157,7 +157,7 @@ const Footer = () => {
 
               <address className="not-italic space-y-4">
                 <div className="flex items-start gap-3 text-sm leading-relaxed max-w-sm">
-                  <HiOutlineLocationMarker size={30} className="mt-0.5" />
+                  <HiOutlineLocationMarker size={30}  className="mt-0.5 " />
                   <span>
                     King Abdul Aziz Rd, Al Arid District, Riyadh 13342, Saudi
                     Arabia
@@ -165,12 +165,12 @@ const Footer = () => {
                 </div>
 
                 <div className="flex items-center gap-3">
-                  <FaMobileAlt size={20} />
+                  <FaMobileAlt size={25} />
                   <a href="tel:+966597080934">+966 59 708 0934</a>
                 </div>
 
                 <div className="flex items-center gap-3">
-                  <MdOutlineEmail size={20} />
+                  <MdOutlineEmail size={25} />
                   <a href="mailto:info@corelinkarabia.com">
                     info@corelinkarabia.com
                   </a>
