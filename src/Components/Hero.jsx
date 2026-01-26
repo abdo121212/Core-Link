@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import bg from "../assets/Video/2792370-hd_1920_1080_30fps.mp4";
+import bg from "../assets/Video/shutterstock_1025735363.mp4";
 
 const Hero = () => {
   return (
@@ -13,12 +13,14 @@ const Hero = () => {
         loop
         muted
         playsInline
-        className="absolute inset-0 w-full h-full object-cover translate-y-32 "
+        className="absolute inset-0 w-full h-full object-cover translate-y-20 "
         aria-hidden="true"
       >
         <source src={bg} type="video/mp4" />
       </video>
 
+  {/* Overlay */}
+  <div className="absolute inset-0 bg-black/60 z-0" />
       {/* Content */}
       <div className="relative z-10 container mx-auto h-full flex items-center  justify-center px-6">
         <div className="text-center max-w-3xl space-y-6 text-white pt-28">
