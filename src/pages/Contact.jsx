@@ -67,7 +67,8 @@ function Contact() {
               data-aos="fade-right"
               className="text-gray-700 dark:text-gray-300"
             >
-              Al Arid Dist. Riyadh
+                  King Abdul Aziz Rd, Al Arid District, Riyadh 13342, Saudi
+                    Arabia
             </p>
           </div>
           <div className="flex flex-col items-center text-center gap-4">
